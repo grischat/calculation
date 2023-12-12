@@ -1,0 +1,33 @@
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input {
+    position: relative;
+    top: 1rem;
+    width: 3rem;
+    height: 2rem;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+  }
+
+  .results__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+  }
+}
