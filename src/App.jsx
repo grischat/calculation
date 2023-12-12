@@ -114,25 +114,25 @@ function App() {
         <div className="results__container">
           <label>
             Total runs (exec)
-            <p>
+            <p className="results__value">
               {isNaN(formik.values.totalRuns) ? "0" : formik.values.totalRuns}
             </p>
           </label>
           <label>
             Runs per day (exec/day)
-            <p>
+            <p className="results__value">
               {isNaN(formik.values.runsPerDay) ? "0" : formik.values.runsPerDay}
             </p>
           </label>
           <label>
             Total days (day)
-            <p>
+            <p className="results__value">
               {isNaN(formik.values.totalDays) ? "0" : formik.values.totalDays}
             </p>
           </label>
           <label>
             Execute every X minute (frequency)
-            <p>
+            <p className="results__value">
               {isNaN(formik.values.totalExecs) ? "0" : formik.values.totalExecs}
             </p>
           </label>

@@ -5,20 +5,22 @@
   gap: 2rem;
   text-align: center;
   span {
-    color: rgb(247, 102, 66);
+    color: #f76642;
     margin-top: 1.5rem;
-    margin-left: 1.5rem;
+    margin-left: 1.5rem
   }
   label {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     margin-top: 1.5rem;
+    width: 200px;
+    justify-content: space-between;
   }
   .label-input-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center
   }
   .input {
     position: relative;
@@ -30,24 +32,30 @@
     border-radius: 5px;
     font-size: 16px;
     outline: none;
-    color: #6d6d6d;
-    margin-left: 2rem;
+    color: #adadad;
+    margin-left: 2rem
   }
   .values__container {
     display: flex;
     flex-direction: column;
     position: relative;
+    left: 2rem;
     gap: 2rem;
-    align-items: center;
+    align-items: flex-start;
   }
   .results__container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
-    gap: 2rem;
+    gap: 1rem;
     border-radius: 12px;
     background-color: #292929;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    width: 600px;
+    justify-content: center;
   }
+  .results__value {
+    color: #f7b747;
+    font-weight: 600;
+   }
 }
