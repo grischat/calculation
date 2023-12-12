@@ -96,7 +96,7 @@ function App() {
             <span>(exec/hour)</span>
           </div>
           <div className="label-input-container">
-            <label htmlFor="execRatePerDay">Execution rate per day</label>
+            <label htmlFor="execRatePerDay">Executions per day</label>
             <input
               id="execRatePerDay"
               name="execRatePerDay"
@@ -108,7 +108,7 @@ function App() {
               min="0"
               max="24"
             />
-            <span>(exec/day)</span>
+            <span>(hour/day)</span>
           </div>
         </div>
         <div className="results__container">
@@ -131,7 +131,7 @@ function App() {
             </p>
           </label>
           <label>
-            Execution rate (exec/minute)
+            Execute every X minute (frequency)
             <p>
               {isNaN(formik.values.totalExecs) ? "0" : formik.values.totalExecs}
             </p>
